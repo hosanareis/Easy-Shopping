@@ -1,0 +1,33 @@
+h1 { /*cabeçalho*/
+    color: #c54646;
+    font-size: 75px;
+    font-weight: lighter; 
+    text-shadow: 10px 10px 10px rgb(255, 181, 193);
+    
+    
+    /*font-weight: bolder = negrito com força
+      font-weight: lighter = fonte fina;
+      font-style: italic   = fonte itálica
+      line-height: 30px = altura da linha;
+      letter-spacing: 30px; = espaço entre as letras
+      word-spacing: 40px; = espaço entre palavras
+      text-align: center; = alinhamento do texto
+      text-transform: uppercase; = deixa todo texto maiúsculo
+      text-decoration: underline; = deixa o texto sublinhado
+      text-shadow: 5px 5px 5px #ff0000 = sombra na horizontal, vertical, 
+      o quanto vai ser o nível  da sombra se é bem ou fraco esfumaçado*/
+}
+
+p{ /*parágrafo*/
+    color: palevioletred;
+    font-size: 28px; /*tamanho to texto*/
+    font-weight: 999; /*lagura da fonte, tipo colocar em negrito*/
+    font-family: "Zen Maru Gothic", sans-serif; /* as fontes acrescento pelo https://fonts.google.com/*/
+    font-style: italic;
+    line-height: 50px ;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    

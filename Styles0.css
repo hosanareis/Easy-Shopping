@@ -1,0 +1,59 @@
+ /*NO CSS O ";" É OBRIGATÓRIO*/
+
+ /* o "*" no CSS significa "TUDO" 
+ 
+ ===> o "id" é único, ex: <button id="botao">Clica em mim, por favor!</button>
+ ===> a "class" pode ser repetida e por elementos diferentes, ex:  
+ */
+
+ /*
+#titulo {
+    color: blue;
+    font-size: 55px;
+}
+
+#paragrafo {
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao {
+    background: pink;
+}
+
+#outro-botao{
+    background: rgb(246, 8, 143);
+}
+ ========> POSSO FAZER DESSA FORMA <========
+
+.texto {
+    color: blue;
+    font-weight: bold ;
+}
+
+.botao{
+    background: chocolate;
+
+}
+    */
+/*POSSO USAR O MESMO ESTILO PARA DIVERSOS SELETORES*/
+.texto, .botao, p, #segundo-botao {
+    color: #1CEB66;
+}    
+
+/* => CSS significa: Folha de Estilo em CASCATA, ou seja,
+ele funciona de cima para baixo.
+
+SITE PARA CORES:
+
+https://www.w3schools.com/
+https://color.adobe.com/pt/create/color-wheel
+https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
+
+RGB: 
+    RED
+    GREEN
+    BLUE
+
+*/
